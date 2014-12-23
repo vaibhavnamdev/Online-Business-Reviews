@@ -1,0 +1,50 @@
+ ul {
+list-style: none;
+}
+.error-page {
+color: rgba(215,219,216,0.8);
+background-color: #343c38;
+font-size: 16px;
+line-height: 1.3125em;
+}
+.offscreen {
+clip: rect(0 0 0 0);
+position: absolute;
+left: -9999px;
+top: auto;
+overflow: hidden;
+width: 1px;
+height: 1px;
+}
+.error-page .footer {
+text-align: center;
+font-size: 12px;
+line-height: 1.5em;
+}
+.error-page .footer .footer-wrap {
+width: 1050px;
+}
+error-page .footer .footer-wrap {
+padding: 51px 0;
+width: 990px;
+margin: 0 auto;
+}
+.error-page .footer .nav-links {
+border-bottom: 1px solid #1a231e;
+padding-bottom: 9px;
+margin-bottom: 12px;
+}
+.error-page .error-wrap {
+background-color: #1a231e;
+min-width: 990px;
+}
+.error-page .error-content {
+width: 960px;
+min-height: 365px;
+margin: 0 auto;
+background: url(../resourses/error.gif) no-repeat bottom right;
+}
+.error-page .media-body {
+width: 50%;
+float: left;
+}
